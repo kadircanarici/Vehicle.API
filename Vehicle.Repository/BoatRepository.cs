@@ -15,6 +15,9 @@ namespace Vehicle.Repository
             new Boat(){Id=1,Color = "Blue"},
             new Boat(){Id=2,Color = "Black"},
             new Boat(){Id=3,Color = "White"},
+            new Boat(){Id=4,Color = "White"},
+            new Boat(){Id=5,Color = "White"},
+            
         };
         public IEnumerable<Boat> GetBoats()
         {

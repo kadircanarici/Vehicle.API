@@ -16,6 +16,9 @@ namespace Vehicle.Repository
             new Bus(){Id=1,Color = "Blue"},
             new Bus(){Id=2,Color = "Black"},
             new Bus(){Id=3,Color = "White"},
+            new Bus(){Id=4,Color = "White"},
+            new Bus(){Id=5,Color = "White"},
+            
         };
         public IEnumerable<Bus> GetBuses()
         {
